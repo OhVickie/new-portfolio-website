@@ -34,7 +34,7 @@ function Contact(props) {
 				</h2>
 			</div>
 
-			<div className="contact-page__text">
+			<div className="contact-page__content">
 				{/* <img className="contact-img" src={OfficeImg}></img> */}
 
 				<div className="contact__form text-center">
@@ -71,7 +71,7 @@ function Contact(props) {
 							placeholder="Message"></input>
 
 						<div className="">
-							<button className="submit__btn btn btn-outline-primary" onClick={submitInfo}>Submit</button>
+							<button className="submit__btn btn btn-outline-primary" onClick={submitInfo}>SUBMIT</button>
 						</div>
 
 					</form>

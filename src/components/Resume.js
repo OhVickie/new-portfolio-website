@@ -10,7 +10,7 @@ function Resume() {
 	return (
 
 		<div id="resume-page">
-			<h1 className="resume-page__heading">Resume</h1>
+			{/* <h1 className="resume-page__heading">Resume</h1> */}
 			<div className="resume-page__content">
 				<div className="resume-section resume-section-1">
 					<p>
@@ -153,6 +153,10 @@ function Resume() {
 
 						<span className="resume-section-5__item tools-and-platforms">
 							<Skills skill="Postman" />
+						</span>
+
+						<span className="resume-section-5__item tools-and-platforms">
+							<Skills skill="Figma" />
 						</span>
 
 						<span className="resume-section-5__item tools-and-platforms">
