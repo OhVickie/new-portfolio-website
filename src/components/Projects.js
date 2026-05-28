@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import { Grid, Typography } from '@mui/material';
 import Nav from './nav';
 import SingleProjectItem from './SingleProjectItem.js';
-import img2 from '../images/citrus-delicious-food-35063.jpg';
+import img3 from '../images/typing-code.svg';
+import img2 from '../images/victorystray screenshot.PNG';
 import img1 from '../images/newspage screenshot.PNG';
 
 function Projects() {
@@ -23,16 +24,11 @@ function Projects() {
 				/>
 				<SingleProjectItem
 					cardImage={img2}
-					cardTitle="Project 2"
-					cardDescription="This is the project description"
-					cardLink="https://github.com/OhVickie?tab=repositories"
+					cardTitle="Victory's Tray"
+					cardDescription="A modern and responsive restaurant website featuring a visual menu with photos, business hours and a contact form for customer inquiries and feedback"
+					cardLink="https://ohvickie.github.io/Victorys-Tray/"
 				/>
-				<SingleProjectItem
-					cardImage={img2}
-					cardTitle="Project 3"
-					cardDescription="This is the project description"
-					cardLink="https://github.com/OhVickie?tab=repositories"
-				/>
+
 			</div>
 
 		</div>

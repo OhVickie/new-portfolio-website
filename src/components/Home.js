@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 
 function Home() {
     return (
@@ -38,9 +39,12 @@ function Home() {
                 </div>
 
                 <div className="social-links">
-                    <a href="https://github.com/OhVickie?tab=repositories" rel="noopener noreferrer" target="_blank">
+                    <Link to="/Projects">
                         VIEW MY PROJECTS
-                    </a>
+                    </Link>
+                    {/* <a href="https://github.com/OhVickie?tab=repositories" rel="noopener noreferrer" target="_blank">
+                        VIEW MY PROJECTS
+                    </a> */}
 
                 </div>
 
