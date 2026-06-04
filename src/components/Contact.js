@@ -48,6 +48,8 @@ function Contact(props) {
 							type="text"
 							name="user_firstname"
 							placeholder="FirstName"
+							required
+							pattern="^[A-Za-z]+$"
 						></input>
 
 						<input className="form__input form__input--name form__input--lastname"
@@ -55,6 +57,8 @@ function Contact(props) {
 							type="text"
 							name="user_lastname"
 							placeholder="LastName"
+							required
+							pattern="^[A-Za-z]+$"
 						></input>
 
 						<input className="form__input form__input--email"
@@ -62,13 +66,17 @@ function Contact(props) {
 							type="text"
 							name='user_email'
 							placeholder="Email"
+							required
+							pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
 						></input>
 
 						<input
 							className="form__input form__input--message"
 							type="text"
 							name='message'
-							placeholder="Message"></input>
+							placeholder="Message"
+							required
+						></input>
 
 						<div className="">
 							<button className="submit__btn btn btn-outline-primary" onClick={submitInfo}>SUBMIT</button>

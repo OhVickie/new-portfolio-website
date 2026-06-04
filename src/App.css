@@ -46,10 +46,6 @@ body {
   background-image: linear-gradient(to left, rgba(198, 66, 110, 0.7), rgba(221, 214, 243, 0.7)), url(images/white-ceramic-cup-on-saucer-near-gold-colored-analog-watch-1251086.jpg);
 }
 
-/* .header-color #resume-page {
-  background-image: linear-gradient(to left, rgba(198, 66, 110, 0.7), rgba(221,214,243, 0.7)), url(images/white-ceramic-cup-on-saucer-near-gold-colored-analog-watch-1251086.jpg)!important;
-} */
-
 .header-text {
   text-decoration: none !important;
   color: #fff !important;
@@ -425,16 +421,17 @@ h2 {
 }
 
 .project {
-  display: block;
-  /* display: flex; */
-  /* flex-wrap: wrap;
+  /* display: block; */
+  display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  justify-content: center; */
+  justify-content: center;
   box-shadow: 0 .6rem 1rem rgba(0, 0, 0, 0.2);
-  width: 25vw;
-  max-width: 65rem;
+  width: 50vw;
+  max-width: 30rem;
   transition: transform .3s;
-  margin-bottom: 7%;
+  /* margin-bottom: 7%; */
+  margin: 0 auto;
   padding: 2rem 0;
 }
 
@@ -453,7 +450,7 @@ h2 {
 
 .card-img {
   height: 90%;
-  width: 90%;
+  /* width: 90%; */
   object-fit: cover;
 }
 
@@ -566,11 +563,10 @@ h2 {
   margin: 0 auto;
   height: 100vh;
   width: 100vw;
-  background-image: url(images/lightbulb blueback.jpg);
+  background-image: url("images/lightbulb blueback.jpg");
   background-color: (rgba(12, 29, 23, 0.9));
   background-size: cover;
-  padding: 4.5rem 1rem;
-  padding: 2rem;
+  padding: 2rem 0rem;
   /* background-color: rgb(207, 151, 247); */
 
   /* max-width: 65rem; */
@@ -587,7 +583,7 @@ h2 {
 
 .contact-page__heading {
   font-size: 4rem;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-weight: 700;
   display: inline-block;
   color: #ffffff;
@@ -621,15 +617,16 @@ h2 {
 
 .contact__form {
   margin: auto;
-  max-width: 65rem !important;
+  /* width: 90%; */
+  max-width: 600px !important;
   /* position: relative;
   top: 7rem;
   right: 10rem; */
-  padding: 2rem 2rem 0rem 2rem;
-  border: .13rem solid #FFFFFF;
-  border-radius: .2rem;
-  box-shadow: 0rem .6rem .9rem rgba(0, 0, 0, 0.2);
-  width: 30%;
+  /* padding: 2rem 2rem 0rem 2rem; */
+  /* border: .13rem solid #FFFFFF;
+  border-radius: .2rem; */
+  /* box-shadow: 0rem .6rem .9rem rgba(0, 0, 0, 0.2); */
+
   color: #FFFFFF;
   text-align: center;
 }
@@ -638,14 +635,15 @@ h2 {
   /* border: 1.5px solid black; */
   background-color: white;
   opacity: 0.8;
-  /* width: 250px; */
-  border-radius: 5px;
+  border-radius: 1.5rem;
   font-family: "Source Sans Pro", sans-serif;
-  padding: 10px 15px;
-  text-align: center;
-  font-size: 18px;
+  padding: .8rem;
+  text-align: left;
+  font-size: 1.2rem;
   color: black;
-  font-weight: 300;
+  font-weight: 500;
+  line-height: 1.4;
+  margin-bottom: 1rem;
 }
 
 .form__input--name {
@@ -697,9 +695,10 @@ input:focus {
   border: solid white 2.5px;
   border-radius: 4.5rem;
   text-decoration: none !important;
-  padding: .7rem 2.2rem;
+  padding: .7rem 3rem;
   cursor: pointer;
   font-size: 1rem;
+  font-weight: 700;
   color: #FFFFFF !important;
   /* padding: 1.6% 7%; */
   text-align: center;
@@ -734,14 +733,10 @@ input:focus {
   }
 
   .home-grid__content {
-    width: 70%;
+    width: 100%;
+    padding: 0.7rem;
   }
 
-  .project {
-    width: 35vw;
-    margin-bottom: 7%;
-    padding: 2rem 0;
-  }
 
 }
 
