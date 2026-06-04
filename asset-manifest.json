@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/new-portfolio-website/static/css/main.85ae2905.css",
-    "main.js": "/new-portfolio-website/static/js/main.7d60a380.js",
+    "main.css": "/new-portfolio-website/static/css/main.fe09b805.css",
+    "main.js": "/new-portfolio-website/static/js/main.3bd0f34b.js",
     "static/js/453.a7043cff.chunk.js": "/new-portfolio-website/static/js/453.a7043cff.chunk.js",
     "static/media/white-ceramic-cup-on-saucer-near-gold-colored-analog-watch-1251086.jpg": "/new-portfolio-website/static/media/white-ceramic-cup-on-saucer-near-gold-colored-analog-watch-1251086.f416df68fec87be22e27.jpg",
-    "static/media/citrus-delicious-food-35063.jpg": "/new-portfolio-website/static/media/citrus-delicious-food-35063.9b84752a7b7f7bfd0561.jpg",
     "static/media/office-space.jpg": "/new-portfolio-website/static/media/office-space.88da2d9eea42c04af136.jpg",
     "static/media/lightbulb blueback.jpg": "/new-portfolio-website/static/media/lightbulb blueback.4aaf340d39684bb128bf.jpg",
+    "static/media/victorystray2 screenshot.PNG": "/new-portfolio-website/static/media/victorystray2 screenshot.72641c65d4775b4b68e9.PNG",
     "static/media/newspage screenshot.PNG": "/new-portfolio-website/static/media/newspage screenshot.afff79730617a1c20305.PNG",
+    "static/media/typing-code.svg": "/new-portfolio-website/static/media/typing-code.23a1e3334d6dd9e62ec32d388d6138df.svg",
     "index.html": "/new-portfolio-website/index.html",
-    "main.85ae2905.css.map": "/new-portfolio-website/static/css/main.85ae2905.css.map",
-    "main.7d60a380.js.map": "/new-portfolio-website/static/js/main.7d60a380.js.map",
+    "main.fe09b805.css.map": "/new-portfolio-website/static/css/main.fe09b805.css.map",
+    "main.3bd0f34b.js.map": "/new-portfolio-website/static/js/main.3bd0f34b.js.map",
     "453.a7043cff.chunk.js.map": "/new-portfolio-website/static/js/453.a7043cff.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.85ae2905.css",
-    "static/js/main.7d60a380.js"
+    "static/css/main.fe09b805.css",
+    "static/js/main.3bd0f34b.js"
   ]
 }
