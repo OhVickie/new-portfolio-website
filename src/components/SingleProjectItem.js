@@ -10,7 +10,7 @@ function SingleProjectItem(props) {
 
     return (
 
-        <div className="project">
+        <div className="project card h-100">
             <div>
                 <img src={props.cardImage} className="card-img"></img>
             </div>
